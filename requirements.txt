@@ -1,0 +1,21 @@
+# Topology Optimization Engine - Dependencies
+# Python 3.10+ required
+
+# Core scientific computing (use latest)
+numpy>=2.0.0
+scipy>=1.11.0
+
+# Visualization (2D)
+matplotlib>=3.8.0
+
+# Finite Element Analysis
+scikit-fem==12.0.1
+
+# Mesh I/O
+meshio>=5.3.0
+
+# Future: 3D visualization (add in Week 3)
+# pyvista>=0.43.0
+
+# Future: CAD export (add in Phase 4)
+# pythonOCC-core>=7.7.0  # Complex install, defer until needed
